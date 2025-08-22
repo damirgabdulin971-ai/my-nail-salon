@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Маникюрный салон</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" 
+            async defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Маникюрный салон</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#photos">Фотографии</a></li>
+                <li><a href="#prices">Прайс</a></li>
+                <li><a href="#location">Местоположение</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="photos">
+        <h2>Наши работы</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Маникюр 1">
+            <img src="photo2.jpg" alt="Маникюр 2">
+            <img src="photo3.jpg" alt="Маникюр 3">
+        </div>
+    </section>
+
+    <section id="prices">
+        <h2>Прайс-лист</h2>
+        <table>
+            <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+            </tr>
+            <tr>
+                <td>Маникюр классический</td>
+                <td>500 Р</td>
+            </tr>
+            <tr>
+                <td>Маникюр с гель-лаком</td>
+                <td>800 Р</td>
+            </tr>
+            <tr>
+                <td>Педикюр</td>
+                <td>1000 Р</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="location">
+        <h2>Наше местоположение</h2>
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <p>Контакты: телефон, email, соц.сети</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
